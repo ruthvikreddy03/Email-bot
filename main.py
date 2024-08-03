@@ -38,11 +38,10 @@ def send_email(receiver, subject, message):
 
 
 email_list = {
-    'dude': 'COOL_DUDE_EMAIL',
-    'bts': 'diamond@bts.com',
-    'pink': 'jennie@blackpink.com',
-    'lisa': 'lisa@blackpink.com',
-    'irene': 'irene@redvelvet.com'
+    'Self ': 'ruthvikreddyds@gmail.com',
+    'Mahendra': 'desi21cs035@rmkcet.ac.in',
+    'Nikilesh': 'band21cs016@rmkcet.ac.in',
+    
 }
 
 
@@ -61,6 +60,7 @@ def get_email_info():
     send_more = get_info()
     if 'yes' in send_more:
         get_email_info()
+
 
 
 get_email_info()
